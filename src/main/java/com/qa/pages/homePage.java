@@ -67,5 +67,10 @@ public class homePage {
 		log.info("Printed the mathes of this week");
 	}
 	
+	public void printMethod()
+	{
+		System.out.println("Hello");
+	}
+	
 	
 }
