@@ -1,0 +1,12 @@
+<suite name="testing espn">
+
+    <listeners>
+        <listener class-name="com.qa.listeners.ExtentTestNGListener" />
+    </listeners>
+    
+<test name="run espn">
+<classes>
+<class name="com.qa.tests.homeTest" />
+</classes>
+</test>
+</suite>

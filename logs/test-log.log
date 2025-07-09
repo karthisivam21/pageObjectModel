@@ -1,0 +1,4 @@
+2025-07-09 15:01:33 [main] INFO  com.qa.base.baseTest - Launched browser
+2025-07-09 15:04:19 [main] INFO  com.qa.base.baseTest - Launched browser
+2025-07-09 15:04:20 [main] WARN  com.qa.base.baseTest - Cookie pop up is displayed
+2025-07-09 15:04:21 [main] INFO  com.qa.base.baseTest - Printed the mathes of this week
