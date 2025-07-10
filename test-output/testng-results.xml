@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T15:04:13 CEST" name="Default suite" finished-at="2025-07-09T15:04:21 CEST" duration-ms="7860">
+  <suite started-at="2025-07-10T19:16:06 CEST" name="Default suite" finished-at="2025-07-10T19:16:11 CEST" duration-ms="4783">
     <groups>
     </groups>
-    <test started-at="2025-07-09T15:04:13 CEST" name="Default test" finished-at="2025-07-09T15:04:21 CEST" duration-ms="7860">
+    <test started-at="2025-07-10T19:16:06 CEST" name="Default test" finished-at="2025-07-10T19:16:11 CEST" duration-ms="4783">
       <class name="com.qa.tests.homeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.homeTest@2dd80673]" started-at="2025-07-09T15:04:13 CEST" name="setUp" finished-at="2025-07-09T15:04:19 CEST" duration-ms="5870" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.homeTest@35fe2125]" started-at="2025-07-10T19:16:06 CEST" name="setUp" finished-at="2025-07-10T19:16:09 CEST" duration-ms="3456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeTestpage()[pri:0, instance:com.qa.tests.homeTest@2dd80673]" started-at="2025-07-09T15:04:19 CEST" name="homeTestpage" finished-at="2025-07-09T15:04:21 CEST" duration-ms="1694" status="PASS">
+        <test-method signature="homeTestpage()[pri:0, instance:com.qa.tests.homeTest@35fe2125]" started-at="2025-07-10T19:16:10 CEST" name="homeTestpage" description="Launching the espn website" finished-at="2025-07-10T19:16:11 CEST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeTestpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.homeTest@2dd80673]" started-at="2025-07-09T15:04:21 CEST" name="tearDown" finished-at="2025-07-09T15:04:21 CEST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.homeTest@35fe2125]" started-at="2025-07-10T19:16:11 CEST" name="tearDown" finished-at="2025-07-10T19:16:11 CEST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

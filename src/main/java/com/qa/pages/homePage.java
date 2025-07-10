@@ -15,6 +15,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+
 
 public class homePage {
 	
@@ -26,6 +29,9 @@ public class homePage {
 	@FindBy(xpath="//div[@class='banner-actions-container']//button[text()='Reject All']")
 	WebElement rejectCookies;
 
+	public int noOfMatches() {
+		return matches.size();
+	}
 	
 	public homePage(WebDriver driver, Logger log) {
 		this.driver = driver;
@@ -48,6 +54,7 @@ public class homePage {
 		}
 	}
 	
+	@Step("Rejecting the cookies")
 	public void rejectCookiesPopUp()
 	{
 
@@ -57,6 +64,7 @@ public class homePage {
 		log.warn("Cookie pop up is displayed");
 	}
 	
+	@Step("Getting the number of matches")
 	public void numberOfMatches() {
 		
 		System.out.println(matches.size());
@@ -67,10 +75,7 @@ public class homePage {
 		log.info("Printed the mathes of this week");
 	}
 	
-	public void printMethod()
-	{
-		System.out.println("Hello");
-	}
+
 	
 	
 }

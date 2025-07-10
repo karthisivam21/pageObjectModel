@@ -1,3 +1,4 @@
+com\qa\reports\ExtentManager.class
+com\qa\listeners\ExtentTestNGListener.class
 com\qa\pages\homePage.class
 com\qa\base\baseTest.class
-com\qa\extendReport\ExtentReporterNG.class

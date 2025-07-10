@@ -2,6 +2,7 @@
 
     <listeners>
         <listener class-name="com.qa.listeners.ExtentTestNGListener" />
+            <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
     
 <test name="run espn">
