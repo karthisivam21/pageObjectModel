@@ -26,3 +26,6 @@
 2025-07-10 19:35:59 [main] INFO  com.qa.base.baseTest - Launched browser
 2025-07-10 19:36:00 [main] WARN  com.qa.base.baseTest - Cookie pop up is displayed
 2025-07-10 19:36:01 [main] INFO  com.qa.base.baseTest - Printed the mathes of this week
+2025-07-10 19:42:41 [main] INFO  com.qa.base.baseTest - Launched browser
+2025-07-10 19:42:42 [main] WARN  com.qa.base.baseTest - Cookie pop up is displayed
+2025-07-10 19:42:43 [main] INFO  com.qa.base.baseTest - Printed the mathes of this week
